@@ -793,7 +793,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 </div>
 
 <div style="width:100%;padding:20px;text-align:center;background-color:#000;color:#fff;">
- <span>Tomas Silny &copy; <?php echo date('Y'); ?></span>
+ <span>Tomas Silny &copy; 2023</span>
 </div>
 
 </body>
