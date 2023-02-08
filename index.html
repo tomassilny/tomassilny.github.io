@@ -79,6 +79,9 @@
 
 
       });
+      $(".background li:nth-child(0)").css("bottom", "127px");
+      $(".background li:nth-child(1)").css("bottom", "350px");
+
     })(jQuery);
 
     particlesJS.load('particles-js', 'particles.json', function () {
@@ -87,9 +90,18 @@
 
   </script>
 </head>
+<ul class="background">
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
 
 <body>
-  <div id="particles-js" style="position:absolute;width:100%;height:100%;z-index:-1;"></div>
+
 
   <div class="ag-timeline-block">
     <div class="ag-timeline_title-box">
@@ -114,9 +126,11 @@
         style="border-radius:50%;border: 5px solid #fff;margin-bottom:10px;z-index:500;" />
       <div class="ag-timeline_title">Tomas Silny, MSc.</div>
       <p style="color:#fff;text-align:center;padding-left:30%;padding-right:30%;margin-bottom:30px;">Welcome to my
-        Portfolio. I'm a passionate Web & Mobile Fullstack Developer living in Vancouver <span class="fi fi-ca"></span> originally from Slovakia <span class="fi fi-sk"></span> <span
-          class="fi fi-eu"></span>. I have more than 4 years of experience in Fullstack Development using the latest technologies. Here 
-        you can find some of my projects. If you want to know more about me, please visit my <a target="_blank" style="color:#4bfbba;text-decoration:underline;" href="https://www.linkedin.com/in/tomas-silny/">
+        Portfolio. I'm a passionate Web & Mobile Fullstack Developer living in Vancouver <span class="fi fi-ca"></span>
+        originally from Slovakia <span class="fi fi-sk"></span> <span class="fi fi-eu"></span>. I have more than 4 years
+        of experience in Fullstack Development using the latest technologies. At this page
+        you can find some of my projects. If you want to know more about me, please visit my <a target="_blank"
+          style="color:#4bfbba;text-decoration:underline;" href="https://www.linkedin.com/in/tomas-silny/">
           <img src="images/linkedin.png" width="12" alt="Social button" /> Linkedin
         </a> or <a href="TomasSilny_CV2.pdf" target="_blank" style="color:#4bfbba;text-decoration:underline;">Download
           my resume</a>.
@@ -189,10 +203,12 @@
               </div>
               <div class="ag-timeline-card_item">
                 <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/meow.jpg" class="ag-timeline-card_img" width="640" height="300"
-                      style="object-fit:cover;" />
-                  </div>
+                  <a href="https://meowvpn.com" target="_blank">
+                    <div class="ag-timeline-card_img-box">
+                      <img src="images/meow.jpg" class="ag-timeline-card_img" width="640" height="300"
+                        style="object-fit:cover;" />
+                    </div>
+                  </a>
                   <div class="ag-timeline-card_info">
                     <div class="ag-timeline-card_title">MeowVPN</div>
                     <div class="ag-timeline-card_desc">
@@ -244,10 +260,12 @@
               </div>
               <div class="ag-timeline-card_item">
                 <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/body.jpg" class="ag-timeline-card_img" width="640" height="270"
-                      style="object-fit:cover;" />
-                  </div>
+                  <a href="https://bodymotion.vercel.app" target="_blank">
+                    <div class="ag-timeline-card_img-box">
+                      <img src="images/body.jpg" class="ag-timeline-card_img" width="640" height="270"
+                        style="object-fit:cover;" />
+                    </div>
+                  </a>
                   <div class="ag-timeline-card_info">
                     <div class="ag-timeline-card_title">Body Motion</div>
                     <div class="ag-timeline-card_desc">
@@ -296,10 +314,12 @@
               </div>
               <div class="ag-timeline-card_item">
                 <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/byteshare.jpg" class="ag-timeline-card_img" width="640" height="330"
-                      style="object-fit:cover;" />
-                  </div>
+                  <a href="https://byteshare.net" target="_blank">
+                    <div class="ag-timeline-card_img-box">
+                      <img src="images/byteshare.jpg" class="ag-timeline-card_img" width="640" height="330"
+                        style="object-fit:cover;" />
+                    </div>
+                  </a>
                   <div class="ag-timeline-card_info">
                     <div class="ag-timeline-card_title">ByteShare</div>
                     <div class="ag-timeline-card_desc">
@@ -348,10 +368,12 @@
               </div>
               <div class="ag-timeline-card_item">
                 <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/code.jpg" class="ag-timeline-card_img" width="640" height="300"
-                      style="object-fit:cover;" />
-                  </div>
+                  <a href="https://codedocs.org" target="_blank">
+                    <div class="ag-timeline-card_img-box">
+                      <img src="images/code.jpg" class="ag-timeline-card_img" width="640" height="300"
+                        style="object-fit:cover;" />
+                    </div>
+                  </a>
                   <div class="ag-timeline-card_info">
                     <div class="ag-timeline-card_title">CodeDocs</div>
                     <div class="ag-timeline-card_desc">
@@ -396,10 +418,12 @@
               </div>
               <div class="ag-timeline-card_item">
                 <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/unigram.png" class="ag-timeline-card_img" width="640" height="300"
-                      style="object-fit:cover;" />
-                  </div>
+                  <a href="https://github.com/tomassilny/unigram-social-network" target="_blank">
+                    <div class="ag-timeline-card_img-box">
+                      <img src="images/unigram.png" class="ag-timeline-card_img" width="640" height="300"
+                        style="object-fit:cover;" />
+                    </div>
+                  </a>
                   <div class="ag-timeline-card_info">
                     <div class="ag-timeline-card_title">Unigram</div>
                     <div class="ag-timeline-card_desc">
@@ -445,10 +469,12 @@
               </div>
               <div class="ag-timeline-card_item">
                 <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/explo.png" class="ag-timeline-card_img" width="640" height="300"
-                      style="object-fit:cover;" />
-                  </div>
+                  <a href="https://github.com/tomassilny/explorea" target="_blank">
+                    <div class="ag-timeline-card_img-box">
+                      <img src="images/explo.png" class="ag-timeline-card_img" width="640" height="300"
+                        style="object-fit:cover;" />
+                    </div>
+                  </a>
                   <div class="ag-timeline-card_info">
                     <div class="ag-timeline-card_title">Explorea</div>
                     <div class="ag-timeline-card_desc">
@@ -496,10 +522,12 @@
               </div>
               <div class="ag-timeline-card_item">
                 <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/bank.png" class="ag-timeline-card_img" width="640" height="300"
-                      style="object-fit:cover;" />
-                  </div>
+                  <a href="https://github.com/tomassilny/bank-app-reactjs" target="_blank">
+                    <div class="ag-timeline-card_img-box">
+                      <img src="images/bank.png" class="ag-timeline-card_img" width="640" height="300"
+                        style="object-fit:cover;" />
+                    </div>
+                  </a>
                   <div class="ag-timeline-card_info">
                     <div class="ag-timeline-card_title">Bank App</div>
                     <div class="ag-timeline-card_desc">
@@ -544,10 +572,12 @@
               </div>
               <div class="ag-timeline-card_item">
                 <div class="ag-timeline-card_inner">
-                  <div class="ag-timeline-card_img-box">
-                    <img src="images/melodie.png" class="ag-timeline-card_img" width="640" height="300"
-                      style="object-fit:cover;" />
-                  </div>
+                  <a href="https://github.com/tomassilny/melodie-free-music-app" target="_blank">
+                    <div class="ag-timeline-card_img-box">
+                      <img src="images/melodie.png" class="ag-timeline-card_img" width="640" height="300"
+                        style="object-fit:cover;" />
+                    </div>
+                  </a>
                   <div class="ag-timeline-card_info">
                     <div class="ag-timeline-card_title">Melodie</div>
                     <div class="ag-timeline-card_desc">
