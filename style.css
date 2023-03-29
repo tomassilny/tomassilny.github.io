@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+
 body {
-  background-color: #262626;
-  font-family: Montserrat,serif,sans-serif;
+  background-color: #121826;
+  font-family: Manrope,serif,sans-serif;
   overflow-x: hidden;
   margin: 0;
 }
@@ -35,7 +37,7 @@ img {
   background-size: cover;
   -webkit-background-clip: text;
   background-clip: text;
-  color: #4bfbba;
+  color: #63d2bc;
   font-weight: bold;
   font-size: 40px;
 }
@@ -78,7 +80,7 @@ img {
 .ag-timeline_line-progress {
   width: 100%;
   height: 20%;
-  background-color: #4bfbba;
+  background-color: #63d2bc;
 }
 
 .ag-timeline-card_box {
@@ -98,7 +100,7 @@ img {
   height: 50px;
   line-height: 50px;
   width: 50px;
-  border: 3px solid #4bfbba;
+  border: 3px solid #63d2bc;
   background-color: #1d1d1b;
 
   text-align: center;
@@ -111,7 +113,7 @@ img {
 }
 .js-ag-active .ag-timeline-card_point {
   color: #1d1d1b;
-  background-color: #4bfbba;
+  background-color: #63d2bc;
 }
 .ag-timeline-card_meta-box {
   display: inline-block;
@@ -121,7 +123,7 @@ img {
 
   font-weight: bold;
   font-size: 28px;
-  color: #4bfbba;
+  color: #63d2bc;
 }
 .ag-timeline-card_meta_descr{
   margin: 10px 0 0;
@@ -130,14 +132,14 @@ img {
   color: #fff;
 }
 .ag-timeline-card_meta_descr a{
-  color: #4bfbba;
+  color: #63d2bc;
   text-decoration: underline;
 }
 .ag-timeline-card_item {
   display: inline-block;
   width: 45%;
   margin: -77px 0 0;
-  background-color: #282828;
+  background-color: rgba(0,0,0,.2);
 
   opacity: 0;
 
@@ -220,7 +222,7 @@ img {
 
   font-weight: bold;
   font-size: 18px;
-  color: #4bfbba;
+  color: #63d2bc;
 }
 .ag-timeline-card_desc {
   line-height: 1.45;
@@ -453,4 +455,12 @@ a{
   height: 128px;
   bottom: 128px;
   animation-delay: 0s;
+}
+.social-buttons img{
+  transition: 0.3s ease;
+}
+.social-buttons img:hover{
+  /* zoom in on hover */
+  transform: scale(1.4);
+  transition: 0.3s ease;
 }
