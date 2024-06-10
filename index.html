@@ -85,6 +85,10 @@
       $(".background li:nth-child(0)").css("bottom", "127px");
       $(".background li:nth-child(1)").css("bottom", "350px");
 
+      $(document).ready(function(){
+        $("#year").html(new Date('Y'))
+      })
+
     })(jQuery);
 
 
@@ -597,7 +601,7 @@
   </div>
 
   <div style="width:100%;padding:20px;text-align:center;background-color:#000;color:#fff;">
-    <span>Tomas Silny &copy; 2023</span>
+    <span>Tomas Silny &copy; <span id="year"></span></span>
   </div>
 
 </body>
